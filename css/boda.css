@@ -37,6 +37,7 @@ body.normal {
   font-size: 1.8em;
   line-height: 1.2em;
 }
+
 .normal .push{
 	padding-top: 6em;
   
@@ -113,6 +114,9 @@ body.normal {
 }
 .cb-slideshow:after {
     content: '';
+    width: 1000%;
+    left: -10em;
+    background: transparent url(../assets/pattern.png) repeat top left;
 }
 .cb-slideshow li span {
     width: 100%;
@@ -490,6 +494,7 @@ and (orientation : landscape) {
 @media only screen 
 and (min-device-width : 320px) 
 and (max-device-width : 480px) {
+  ul{ margin-left : 0px; }
   .normal .intro-text p{
     font-size: 1.2em;
   
