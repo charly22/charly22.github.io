@@ -1,6 +1,6 @@
 /* CSS for common people */
 body.normal {
-	 -webkit-font-smoothing: antialiased; 
+	 -webkit-font-smoothing: antialiased;
 }
 
 .normal a, .normal a:hover, .normal a:focus {
@@ -10,8 +10,8 @@ body.normal {
 .normal .hero {
   box-shadow:inset 0px 0px 0 2000px rgba(0, 0, 0, 0.15);
   height:100%;
-  
-  color: rgba(255, 255, 255,1); 
+
+  color: rgba(255, 255, 255,1);
   overflow: hidden;
   padding: .8em;
   position: relative;
@@ -22,15 +22,15 @@ body.normal {
   padding-top: 24%;
   text-align:center;
 
-  -moz-transition: all 250ms 250ms cubic-bezier(0.770, 0.000, 0.175, 1.000); 
+  -moz-transition: all 250ms 250ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
   transition: all 250ms 250ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
 }
-.normal .loading .intro-text{ 
+.normal .loading .intro-text{
   opacity: 0;
 }
 .normal .intro-text h1, .normal .intro-text h4{
   color:rgba(255, 255, 255, 1) !important;
-  
+
 }
 .normal .intro-text p {
   /* font-family:'Shadows Into Light', cursive; */
@@ -40,9 +40,9 @@ body.normal {
 
 .normal .push{
 	padding-top: 6em;
-  
+
 	font-size: 1em;
-  
+
 	line-height: 1.2em;
 	font-family: 'Raleway', 'Helvetica', sans-serif;
 	color: rgba(34, 34, 34, .7);
@@ -161,7 +161,7 @@ body.normal {
 }
 */
 
-.cb-slideshow li:nth-child(1) span { 
+.cb-slideshow li:nth-child(1) span {
   /*background-image: url(../assets/img-01.jpg) */
 }
 .cb-slideshow li:nth-child(2) span {
@@ -240,7 +240,7 @@ body.normal {
     animation-delay: 30s;
 }
 /* Animation for the slideshow images */
-@-webkit-keyframes imageAnimation { 
+@-webkit-keyframes imageAnimation {
   0% {
       opacity: 0;
       -webkit-animation-timing-function: ease-in;
@@ -260,7 +260,7 @@ body.normal {
   }
   100% { opacity: 0 }
 }
-/*@-moz-keyframes imageAnimation { 
+/*@-moz-keyframes imageAnimation {
   0% {
       opacity: 0;
       -moz-animation-timing-function: ease-in;
@@ -280,7 +280,7 @@ body.normal {
   }
   100% { opacity: 0 }
 }
-@-o-keyframes imageAnimation { 
+@-o-keyframes imageAnimation {
   0% {
       opacity: 0;
       -o-animation-timing-function: ease-in;
@@ -300,7 +300,7 @@ body.normal {
   }
   100% { opacity: 0 }
 }
-@-ms-keyframes imageAnimation { 
+@-ms-keyframes imageAnimation {
   0% {
       opacity: 0;
       -ms-animation-timing-function: ease-in;
@@ -320,7 +320,7 @@ body.normal {
   }
   100% { opacity: 0 }
 }
-@keyframes imageAnimation { 
+@keyframes imageAnimation {
   0% {
       opacity: 0;
       animation-timing-function: ease-in;
@@ -355,22 +355,22 @@ body.normal {
 }
 
 .bothsofthem{
-   opacity: 0; 
+   opacity: 0;
    z-index: 0;
 }
 .showed .bothsofthem { opacity: 1; }
-.charly, .naty{ 
+.charly, .naty{
   opacity: 0;
-  width: 15em; 
+  width: 15em;
   position: absolute;
-  float: left; 
-  background: white; 
-  top: 50%; 
-  margin-top: -4em; 
-  height: 8em; 
-  overflow: hidden; 
-  padding: .9em; 
-  -moz-transition: all 250ms cubic-bezier(0.770, 0.000, 0.175, 1.000); 
+  float: left;
+  background: white;
+  top: 50%;
+  margin-top: -4em;
+  height: 8em;
+  overflow: hidden;
+  padding: .9em;
+  -moz-transition: all 250ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
   transition: all 250ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
 }
 .naty{ right: 50%; margin-right: -15.4em; }
@@ -393,8 +393,8 @@ body.normal {
 }
 .pluss {
   posisiton: relative;
-  width: 33em;
-  height: 33em;
+  width: 33px;
+  height: 33px;
   background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz48c3ZnIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDUxMiA1MTIuMDIiIGhlaWdodD0iNTEyLjAycHgiIGlkPSJMYXllcl8xIiB2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9IjAgMCA1MTIgNTEyLjAyIiB3aWR0aD0iNTEycHgiIHhtbDpzcGFjZT0icHJlc2VydmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxnIGlkPSJtZWFuaWNvbnNfeDVGXzI1Ij48cGF0aCBkPSJNMjU2LjI5OC0wLjAyQzExNC45ODktMC4wMiwwLjM0NSwxMTQuNTg0LDAuMzQ1LDI1NS45MzNjMCwxNDEuNDAzLDExNC42NDUsMjU2LjA2NSwyNTUuOTUzLDI1Ni4wNjUgICBjMTQxLjQ0LDAsMjU2LjA0Ny0xMTQuNjYyLDI1Ni4wNDctMjU2LjA2NUM1MTIuMzQ2LDExNC41ODYsMzk3LjczOC0wLjAyLDI1Ni4yOTgtMC4wMnogTTQyOS43NDQsMzA4LjM1NEgzMDguNzAxVjQyOS4zNEgyMDMuOTkgICBWMzA4LjM1NEg4Mi45NTdWMjAzLjYzM0gyMDMuOTlWODIuNTloMTA0LjcxMXYxMjEuMDQzaDEyMS4wNDNWMzA4LjM1NHoiLz48L2c+PGcgaWQ9IkxheWVyXzFfMV8iLz48L3N2Zz4=);
   overflow: hidden;
   font-size: 1px;
@@ -449,9 +449,9 @@ body.normal {
 
 
 /* Ipad landscape  */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
 and (orientation : landscape) {
   .normal .intro-text {
     padding-top:15%;
@@ -461,26 +461,26 @@ and (orientation : landscape) {
   }
 }
 /* iPads (portrait and landscape) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
+@media only screen
+and (min-device-width : 768px)
 and (max-device-width : 1024px) {
   .normal .video-hero{
     width: 190% !important;
   }
 }
 /* iPhone 6 in landscape */
-@media only screen 
-and (min-device-width : 375px) 
-and (max-device-width : 667px) 
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px)
 and (orientation : landscape) {
   .normal .intro-text {
     padding-top:4%;
   }
 }
 /* iPhone 6 Plus in landscape */
-@media only screen 
-and (min-device-width : 540px) 
-and (max-device-width : 960px) 
+@media only screen
+and (min-device-width : 540px)
+and (max-device-width : 960px)
 and (orientation : landscape) {
   .normal .intro-text {
     padding-top: 4%;
@@ -491,13 +491,13 @@ and (orientation : landscape) {
 }
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen 
-and (min-device-width : 320px) 
+@media only screen
+and (min-device-width : 320px)
 and (max-device-width : 480px) {
   ul{ margin-left : 0px; }
   .normal .intro-text p{
     font-size: 1.2em;
-  
+
 }
   .normal .push h6{
     font-size: 1.8em;
@@ -507,7 +507,7 @@ and (max-device-width : 480px) {
   }
 }
 /* Smartphones (landscape) ----------- */
-@media only screen 
+@media only screen
 and (max-width : 320px) {
   .charly { margin-left: -10.4em; }
   .naty { margin-right: -10.4em; }
