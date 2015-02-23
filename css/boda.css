@@ -530,3 +530,7 @@ and (max-width : 320px) {
 }
 .console h6{
 }
+
+.small-text {
+	font-size: 0.7em;
+}
