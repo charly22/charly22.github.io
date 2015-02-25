@@ -260,7 +260,7 @@ body.normal {
   }
   100% { opacity: 0 }
 }
-/*@-moz-keyframes imageAnimation {
+@-moz-keyframes imageAnimation {
   0% {
       opacity: 0;
       -moz-animation-timing-function: ease-in;
@@ -339,7 +339,7 @@ body.normal {
       transform: scale(1.1);
   }
   100% { opacity: 0 }
-}*/
+}
 
 /*.normal .bothsofthem{ opacity: 0; }*/
 .loading .bothsofthem{ opacity: 1; }
